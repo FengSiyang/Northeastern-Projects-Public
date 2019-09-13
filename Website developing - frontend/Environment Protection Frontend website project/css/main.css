@@ -1,0 +1,101 @@
+/* normal paragraph */
+@font-face {
+    font-family: ubuntu;
+    src: url('../font/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+/* home page font */
+/*@font-face {
+    font-family: league;
+    src: url('../font/league-gothic-master/webfonts/leaguegothic-regular-webfont.ttf');
+} */
+
+/* header */
+@font-face {
+    font-family: abril;
+    src: url('../font/Abril_Fatface/AbrilFatface-Regular.ttf');
+}
+
+
+html {
+    font-family: 'ubuntu', 'Comic Sans MS', 'Serif';
+    line-height: 1.15;
+    -webkit-text-size-adjust: auto;
+        -ms-text-size-adjust: auto;
+    font-size: 20px;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    background-color: rgba(222, 184, 135, 0.1);
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /*margin: 0 0 0.5rem;*/
+    font-family: 'abril';
+}
+
+p {
+    margin: .5rem 0 .5rem;
+    font-family: 'ubuntu';
+    font-size: 18px;
+}
+
+div, section {
+    display: block;
+}
+
+
+a {
+  color: #7a8167;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+.back-color {
+    background-color: white;
+}
+
+
+footer {
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: rgba(67, 66, 66, 0.46);
+    color: white;
+    text-align: center;
+}
+
+
+
+

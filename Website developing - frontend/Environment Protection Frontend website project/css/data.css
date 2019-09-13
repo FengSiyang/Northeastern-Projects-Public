@@ -1,0 +1,78 @@
+.ls-bord {
+    background-color: rgba(84, 121, 86, 0.58);
+    color: white;
+}
+
+.data1 {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+tr.imp-data1 {
+    font-family: abril;
+    font-size: 45px;
+    color: #713d17;
+}
+
+
+th.sh-f {
+    width: 33.33%;
+    height: 100px;
+}
+
+
+th.sh-f:hover {
+    text-shadow:5px 5px 8px rgba(154, 119, 91, 0.62);
+    font-size: 47px;
+}
+
+
+.data2 {
+    display: none;
+    margin: 30px 15px 30px 15px;
+}
+
+.data2 tr th {
+    font-family: abril;
+    font-size: 25px;
+    color: #713d17;
+    width: 29%;
+} 
+
+.data2 tr th:hover {
+    font-size: 27px;
+    text-shadow: 5px 5px 5px #5c4a3d;
+} 
+
+
+@media screen and (max-width: 600px) {
+    .data1 {
+        display: none;
+    }
+    
+    .data2 {
+        display: block;
+    }
+}
+
+
+td {
+    padding: 15px;
+}
+
+.tit1 {
+    margin-top: 70px;
+}
+
+.tit2 {
+    margin-top: 60px;
+}
+
+#dt-bot {
+    margin-bottom: 100px;
+}
+
+.video_pos {
+    margin: 0 auto;
+}

@@ -1,0 +1,128 @@
+.blk-border {
+    /*border-style: groove;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.bot-border {
+    text-align: center;
+    border-bottom: 1px dotted #c8c8c8;
+}
+
+.more-button {
+    display: inline-block;
+      border-radius: 20px;
+      background-color: rgb(199, 155, 98);
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px;
+      padding: 10px;
+      width: 100px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 1px;
+    vertical-align:middle;
+    position: relative;
+    left: 80%;
+    top: 90%;
+}
+
+.more-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+    padding: 0;
+}
+
+.more-button span:after {
+  content: ">>";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.more-button:hover span {
+  padding-right: 25px;
+}
+
+.more-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+ol.c {
+    list-style-type: circle;
+    font-size: 15px;
+    text-align: left;
+}
+
+ol.d {
+    list-style-type: disc;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.news-image {
+    display: block;
+    width: 90%;
+    height: auto;
+    border-radius: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.news-img1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.bk-col {
+    opacity: 0.75;
+}
+
+.displ {
+    opacity: 1;
+    animation-name: showing;
+    -webkit-animation-name: showing;
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+}
+
+@keyframes showing {
+    0.01% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes showing {
+    10% {
+        opacity: 0.1;
+        -webkit-animation-timing-function: ease-in;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
